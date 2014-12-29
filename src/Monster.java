@@ -1,5 +1,5 @@
-/**
- * Created by pears_000 on 12/27/2014.
- */
-public enum Monster implements Being{
+public class Monster extends Being{
+    Being target;
+    public Wizard creator;
+    public Wizard owner;
 }
